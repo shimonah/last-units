@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <tag>
+            <last_units>
+                <text>Last Units</text>
+                <threshold>50</threshold>
+            </last_units>
+        </tag>
+    </default>
+</config>

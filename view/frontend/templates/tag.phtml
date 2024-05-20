@@ -1,0 +1,15 @@
+<?php
+use Os\LastUnits\Block\Tag;
+use Magento\Framework\Escaper;
+/**
+ * @var $block Tag
+ * @var $escaper Escaper
+ */
+?>
+<div class="wrapper-last-unit-tag">
+    <div class="last-unit-tag">
+        <a href="<?= $escaper->escapeUrl($block->getCategoryUrl()); ?>">
+            <span><?= $escaper->escapeHtml($block->getText()); ?></span>
+        </a>
+    </div>
+</div>

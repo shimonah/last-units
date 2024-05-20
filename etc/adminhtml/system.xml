@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="tag" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Tags</label>
+            <tab>catalog</tab>
+            <resource>Os_LastUnits::config</resource>
+            <group id="last_units" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Last Units</label>
+                <field id="is_enabled" translate="label comment" type="select" sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Is Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="text" translate="label comment" type="text" sortOrder="10" showInDefault="1" canRestore="1">
+                    <label>Tag Text</label>
+                </field>
+                <field id="threshold" translate="label comment" type="text" sortOrder="10" showInDefault="1" canRestore="1">
+                    <label>Threshold</label>
+                    <comment>Product with qty lower than threshold will have this tag.</comment>
+                </field>
+                <field id="category_url_key" translate="label comment" type="text" sortOrder="10" showInDefault="1" canRestore="1">
+                    <label>Category URL Key</label>
+                    <comment>Will be used in tag link to redirect customer on click.</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

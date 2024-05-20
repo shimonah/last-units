@@ -1,0 +1,12 @@
+{
+    "name": "os/last-units",
+    "description": "The last units labels.",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Oleksii Suchalkin",
+            "email": "oleksiisuchalkin@gmail.com"
+        }
+    ]
+}

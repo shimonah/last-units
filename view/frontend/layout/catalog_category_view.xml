@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Os_LastUnits::css/last-units.css" media="all" />
+    </head>
+    <body>
+        <referenceBlock name="category.products.list" template="Os_LastUnits::catalog/product/list.phtml">
+            <arguments>
+                <argument name="last_units_product_list_vm" xsi:type="object">Os\LastUnits\ViewModel\ProductList</argument>
+            </arguments>
+            <block class="Os\LastUnits\Block\Tag" name="os.last_units.tag" template="Os_LastUnits::tag.phtml"/>
+        </referenceBlock>
+    </body>
+</page>
