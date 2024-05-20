@@ -2,7 +2,7 @@
 
 ## Installation
 
-Copy module code into `app/cdde` folder and run
+Copy module code into `app/code/Os/LastUnits` folder and run
 
 `bin/magento setup:upgrade`
 
